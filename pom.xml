@@ -21,7 +21,8 @@
         </license>
     </licenses>
     <developers>
-        <developer>
+		<!-- Trent Summerlin -->
+		<developer>
 			<id>Whirvis</id>
 			<name>Trent Summerlin</name>
 			<email>whirvis@ardenus.org</email>
@@ -32,9 +33,11 @@
 				<role>owner</role>
 				<role>developer</role>
 			</roles>
-			<timezone>America/Chicago</timezone>
+		<timezone>America/Chicago</timezone>
 		</developer>
-        <developer>
+        
+		<!-- Logitech G Corporation -->
+		<developer>
             <id>LogitechG</id>
             <name>Logitech G Corporation</name>
 			<url>http://logitechg.com/</url>
@@ -48,7 +51,7 @@
     
     <!-- Environment settings -->
     <issueManagement>
-        <system>GitHub</system>
+        <system>GitLab</system>
         <url>https://gitlab.com/whirvis/LogiLED/issues/</url>
     </issueManagement>
 
