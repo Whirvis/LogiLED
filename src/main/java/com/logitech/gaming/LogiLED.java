@@ -8,7 +8,7 @@
  *
  * MIT License
  *
- * Copyright (c) 2018 Whirvis Ardenaur, Logitech Corporation
+ * Copyright (c) 2018 Trent Summerlin, Logitech Corporation
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -39,7 +39,7 @@ import java.io.InputStream;
  * A modified LogiLED source file that is more organized and works with both
  * 32-bit and 64-bit operating systems.
  * 
- * @author Whirvis Ardenaur
+ * @author Trent Summerlin
  * @author Logitech Corporation
  */
 public class LogiLED {
