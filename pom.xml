@@ -12,17 +12,17 @@
 	<name>LogiLED</name>
 	<description>A modified version of LogiLED that loads the correct system libraries based on the system architecture.</description>
 	<url>https://gitlab.com/whirvis/LogiLED</url>
-    <inceptionYear>2018</inceptionYear>
-    <licenses>
-        <license>
-            <name>MIT License</name>
-            <url>https://opensource.org/licenses/mit-license.php</url>
-            <distribution>repo</distribution>
-        </license>
-    </licenses>
-	
+	<inceptionYear>2018</inceptionYear>
+	<licenses>
+		<license>
+			<name>MIT License</name>
+			<url>https://opensource.org/licenses/mit-license.php</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+
 	<!-- Developer information -->
-    <developers>
+	<developers>
 		<!-- Trent Summerlin -->
 		<developer>
 			<id>Whirvis</id>
@@ -35,39 +35,38 @@
 				<role>owner</role>
 				<role>developer</role>
 			</roles>
-		<timezone>America/Chicago</timezone>
+			<timezone>America/Chicago</timezone>
 		</developer>
-        
+		
 		<!-- Logitech G Corporation -->
 		<developer>
-            <id>LogitechG</id>
-            <name>Logitech G Corporation</name>
+			<id>LogitechG</id>
+			<name>Logitech G Corporation</name>
 			<url>http://logitechg.com/</url>
-            <roles>
-                <role>owner</role>
-                <role>developer</role>
-            </roles>
+			<roles>
+				<role>owner</role>
+				<role>developer</role>
+			</roles>
 			<timezone>America/Pacific</timezone>
-        </developer>
-    </developers>
-    
-    <!-- Environment settings -->
-    <issueManagement>
-        <system>GitLab</system>
-        <url>https://gitlab.com/whirvis/LogiLED/issues/</url>
-    </issueManagement>
+		</developer>
+	</developers>
 
+	<!-- Environment settings -->
+	<issueManagement>
+		<system>GitLab</system>
+		<url>https://gitlab.com/whirvis/LogiLED/issues/</url>
+	</issueManagement>
+	
 	<!-- Build properties -->
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
 	</properties>
-	
+
 	<!-- Build lifecycle -->
 	<build>
 		<defaultGoal>clean package</defaultGoal>
-
 		<plugins>
 			<!-- Compile classes -->
 			<plugin>
@@ -125,8 +124,8 @@
 					<shadedArtifactAttached>true</shadedArtifactAttached>
 				</configuration>
 			</plugin>
-			
-			 <!-- Generate JavaDoc JAR file -->
+
+			<!-- Generate JavaDoc JAR file -->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-javadoc-plugin</artifactId>
@@ -138,7 +137,7 @@
 						</goals>
 					</execution>
 				</executions>
-		</plugin>
+			</plugin>
 
 			<!-- Generate sources JAR file -->
 			<plugin>
