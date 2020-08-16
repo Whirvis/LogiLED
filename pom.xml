@@ -20,6 +20,8 @@
             <distribution>repo</distribution>
         </license>
     </licenses>
+	
+	<!-- Developer information -->
     <developers>
 		<!-- Trent Summerlin -->
 		<developer>
@@ -136,7 +138,7 @@
 						</goals>
 					</execution>
 				</executions>
-			</plugin>
+		</plugin>
 
 			<!-- Generate sources JAR file -->
 			<plugin>
