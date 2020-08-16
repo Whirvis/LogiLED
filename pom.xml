@@ -11,7 +11,7 @@
 	<!-- Project information -->
 	<name>LogiLED</name>
 	<description>A modified version of LogiLED that loads the correct system libraries based on the system architecture.</description>
-	<url>https://github.com/Whirvis/LogiLED</url>
+	<url>https://gitlab.com/whirvis/LogiLED</url>
     <inceptionYear>2018</inceptionYear>
     <licenses>
         <license>
@@ -22,28 +22,34 @@
     </licenses>
     <developers>
         <developer>
-            <id>Whirvis</id>
-            <name>Whirvis Ardenaur</name>
-            <email>whirvis@ardenus.org</email>
-            <roles>
-                <role>owner</role>
-                <role>developer</role>
-            </roles>
-        </developer>
+			<id>Whirvis</id>
+			<name>Trent Summerlin</name>
+			<email>whirvis@ardenus.org</email>
+			<url>http://whirvis.com/</url>
+			<organization>Ardenus Studios</organization>
+			<organizationUrl>http://ardenus.org/</organizationUrl>
+			<roles>
+				<role>owner</role>
+				<role>developer</role>
+			</roles>
+			<timezone>America/Chicago</timezone>
+		</developer>
         <developer>
-            <id>Logitech</id>
-            <name>Logitech Corporation</name>
+            <id>LogitechG</id>
+            <name>Logitech G Corporation</name>
+			<url>http://logitechg.com/</url>
             <roles>
                 <role>owner</role>
                 <role>developer</role>
             </roles>
+			<timezone>America/Pacific</timezone>
         </developer>
     </developers>
     
     <!-- Environment settings -->
     <issueManagement>
         <system>GitHub</system>
-        <url>https://github.com/Whirvis/LogiLED/issues/</url>
+        <url>https://gitlab.com/whirvis/LogiLED/issues/</url>
     </issueManagement>
 
 	<!-- Build properties -->
